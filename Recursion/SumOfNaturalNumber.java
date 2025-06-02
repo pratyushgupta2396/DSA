@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Main {
-	static long NumberSum(long N) {
+	static long NumberSum(long N) { 
         //Write your code here
         if(N==1){
             return 1;
