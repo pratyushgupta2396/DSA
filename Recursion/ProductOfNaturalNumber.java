@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Main { 
 	static long product(int n){
 		//Write code here
         if(n==1) return 1;
