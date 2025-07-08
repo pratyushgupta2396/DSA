@@ -5,7 +5,7 @@
 import java.util.*;
 
 public class Main {
-    public static int findIndex(int key, int[] arr) {
+    public static int findIndex(int key, int[] arr) { 
         //Write code here
         int low = 0;
         int high = arr.length - 1;
