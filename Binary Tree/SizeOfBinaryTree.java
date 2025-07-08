@@ -3,7 +3,7 @@
 Definition for Binary Tree Node
 class Node
 {
-    int data;
+    int data; 
     Node left;
     Node right;
 
