@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Main { 
 
     public static long calcFac(int num){
         long fact = 1;
