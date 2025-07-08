@@ -1,4 +1,4 @@
-/*Output Format
+  /*Output Format
 The first line contains the size of the tree.
 
 The second line contains the sum of the tree.
