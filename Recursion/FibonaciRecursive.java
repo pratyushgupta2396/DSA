@@ -1,7 +1,7 @@
 import java.util.*;
 import static java.lang.Math.ceil;
  
-public class Main {
+public class Main { 
 
 	public static int fib(int n ){
         // write code here
