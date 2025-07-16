@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Solution{
+class Solution{ 
     public int reverseInteger(int x) {
         // write code here
         int rev = 0;
