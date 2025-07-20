@@ -4,7 +4,7 @@
 class Solution {
     int [] [] dirr = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     public int orangesRotting(int [][] grid) {
-        LinkedList<int[]> q = new LinkedList<>();
+        LinkedList<int[]> q = new LinkedList<>(); 
         int fc =0;
         for(int i = 0; i < grid.length; i++){
             for(int j = 0; j < grid[0].length; j++){
