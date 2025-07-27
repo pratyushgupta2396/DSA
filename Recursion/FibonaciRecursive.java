@@ -6,7 +6,7 @@ public class Main {
 	public static int fib(int n ){
         // write code here
         if(n == 1){
-            return 0;
+            return 0; 
         }
         if(n == 2){
             return 1;
