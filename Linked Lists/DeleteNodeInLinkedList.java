@@ -75,7 +75,7 @@ class Solution
 	    // Your code here
 		//int val;
 		
-		Node next = node.next;
+	Node next = node.next;
         int temp = node.data;
         node.data = next.data;
         next.data = temp;
