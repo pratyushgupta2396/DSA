@@ -11,7 +11,7 @@ The given tree can be represented as:-
         6
        / \
       5   6
-     / \   \
+     / \   \ 
     1   1   6
 The inorder traversal of the tree is :- 1 5 1 6 6 6 
 */
