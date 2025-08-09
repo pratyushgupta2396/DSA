@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Main { 
 	static void SubString(String str) {
         //Write code here
         for(int i = 0; i < str.length(); i++){
