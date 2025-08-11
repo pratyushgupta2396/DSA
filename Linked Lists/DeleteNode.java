@@ -9,7 +9,7 @@ public class Main {
         int n = input.nextInt();
         for(int i = 0; i < n; i++){
             int x = input.nextInt();
-            ll.add(x);
+            ll.add(x); 
         }
 
 		int size = n;
