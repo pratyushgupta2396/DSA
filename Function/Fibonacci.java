@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 
 public class Main
-{
+{ 
 
 	public static void fibo(int n){
 		int a = 0; 
