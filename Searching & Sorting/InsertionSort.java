@@ -7,7 +7,7 @@ public class Main {
         int array[] = new int[n];
 
         for(int i=0; i<n; i++){
-            array[i]= sc.nextInt();
+            array[i]= sc.nextInt(); 
         }
         
         insertionSort(array,n);
