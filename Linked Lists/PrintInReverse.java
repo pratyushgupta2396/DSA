@@ -7,7 +7,7 @@ class Node{
     Node(int data){
         this.data = data;  
         next = null;
-    }
+    } 
 }
 class LinkedList{
     Node head;
