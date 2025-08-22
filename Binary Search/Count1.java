@@ -8,7 +8,7 @@ class Solution {
         }
         int low = 0;
         int high = arr.length -1;
-        int  lastOneIndex = -1;
+        int  lastOneIndex = -1; 
         while(low <= high){
             int mid = low + (high - low)/2;
             if(arr[mid] == 1){
