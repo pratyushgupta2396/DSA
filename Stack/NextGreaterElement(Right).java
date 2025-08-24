@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 
 class Solution
-{
+{ 
     public static long[] nextLargerElement(long[] arr, int n)
     { 
         //Write code here and print output
