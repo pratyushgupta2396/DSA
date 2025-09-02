@@ -1,50 +1,46 @@
-import java.util.*;
+/*
+Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+If target is not found in the array, return [-1, -1].
+You must write an algorithm with O(log n) runtime complexity.
 
-public class Main {
-    public static void findPosition(int a[], int n,int k)
-    {
-        // Write code here
+ Example 1:
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+
+*/
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        // for first position
         int low = 0;
-        int high = a.length -1;
-        int firstPosition = -1;
-        int lastPosition = -1;
+        int high = nums.length -1;
+        int first = -1;
         while(low <= high){
             int mid = low + (high - low)/2;
-            if(a[mid] == k){
-                firstPosition = mid;
-                lastPosition = mid;
-
-                int tempLow = mid - 1;
-                int tempHigh = mid + 1;
-
-                while (tempLow >= 0 && a[tempLow] == k) {
-                    firstPosition = tempLow;
-                    tempLow--;
-                }
-
-                while (tempHigh < n && a[tempHigh] == k) {
-                    lastPosition = tempHigh;
-                    tempHigh++;
-                }
-                break;
-            
-        }else if(a[mid] < k){
-            low = mid + 1;
-        }else{
-            high = mid -1;
+                if(nums[mid] == target){
+                    high = mid-1;
+                    first = mid;
+            }else if(nums[mid] < target){
+                low = mid+1;
+            }else{
+                high = mid-1;
+            }
         }
-    }
-        System.out.println(firstPosition + " " + lastPosition);
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n= sc.nextInt();
-        int k= sc.nextInt();
-        int array[] = new int[n];
-
-        for(int i=0; i<n; i++){
-            array[i]= sc.nextInt();
+        // for second position
+         low = 0;
+         high = nums.length -1;
+        int last = -1;
+        while(low <= high){
+            int mid = low + (high - low)/2;
+                if(nums[mid] == target){
+                    low = mid+1;
+                    last = mid;
+            }else if(nums[mid] < target){
+                low = mid+1;
+            }else{
+                high = mid-1;
+            }
         }
-        findPosition(array,n,k);
+        int[] ans = {first, last};
+        return ans;
     }
 }
