@@ -6,7 +6,7 @@ import java.util.*;
 class Solution
 {
     static int findMin(int arr[], int low, int high)
-    {
+    { 
         //Write your code here
         low = 0;
         high = arr.length -1;
