@@ -1,7 +1,28 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+/*
+You are given an array arr of distinct integers.Your task is to find the previous greater element for each element in the array.If previous greater doesn't exist print -1.
 
+Input Format
+First line of input contains a single integer n, the size of array.
+Second line of input contains n space seperated integrs representing the elements of the array.
+
+Output Format
+Find the previous greater element for each of the element in the array.
+
+Example 1
+Input
+4
+10 20 30 40
+
+Output:
+-1 -1 -1 -1
+
+Explanation:
+For element 10 we not have any element in its left which is greater than 10, so we print -1, similary for 20, 30 and 40 no element is greater to the left of them.
+Therefore we print -1 -1 -1 -1.
+*/
 class Solution
 {
     public static long[] prevGreater(long[] arr, int n)
