@@ -8,7 +8,7 @@ static int [] mergeSort(int[] arr,int l,int r){
         int [] ans = new int [1];
         ans[0] = arr[l];
         return ans;
-     }
+     } 
      int mid = (l + r)/2;
      int [] left = mergeSort(arr, l, mid);
      int [] right = mergeSort(arr, mid + 1, r);
