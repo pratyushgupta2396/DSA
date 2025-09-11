@@ -15,7 +15,7 @@ class Solution {
             }
             curr = curr.next;
         }
-
+ 
         curr = head;
         while (count0-- > 0) {
             curr.data = 0;
