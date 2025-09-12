@@ -15,7 +15,7 @@ class BinarySearchTree {
         if (start > end)
             return null;
         int mid = (start + end) / 2;
-
+ 
         if (root == null)
             root = new Node(arr[mid]);
 
