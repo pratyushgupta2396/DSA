@@ -1,4 +1,4 @@
-/*Example 1
+ /*Example 1
 Input
 
 1111221 1
