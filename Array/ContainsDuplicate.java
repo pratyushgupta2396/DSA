@@ -4,7 +4,7 @@ Example 1:
 Input: nums = [1,2,3,1]
 Output: true
 
-Explanation:
+Explanation: 
 The element 1 occurs at the indices 0 and 3.
 */
 class Solution {
