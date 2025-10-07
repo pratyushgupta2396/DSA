@@ -3,7 +3,7 @@ arr = [1,1,2,2,3,4,4,5]
 Unique length = i+1 = 5
 First 5 elements = [1,2,3,4,5]
 */
-class Solution {
+class Solution { 
     // Function to remove duplicates and return new length
     int removeDuplicates(int[] arr) {
         if (arr.length == 0) return 0;
