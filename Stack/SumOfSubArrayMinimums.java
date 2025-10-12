@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class Solution{
-	public long minSubarraySum(int n, int a[]){
+	public long minSubarraySum(int n, int a[]){ 
 		// write code here
         long MOD = 1_000_000_007;
         int[] left = new int[n];
