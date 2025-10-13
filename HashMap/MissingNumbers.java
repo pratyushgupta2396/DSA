@@ -8,7 +8,7 @@ Input
 
 Output
 204 205 206
-
+ 
 Explanation
 203 is in both arr and brr and its frequency is 2 in both arrays, hence it is not included in output
 204 is included in both arrays but have different frequency hence, it is included in output
