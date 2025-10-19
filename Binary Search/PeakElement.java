@@ -1,4 +1,4 @@
-import java.util.*;
+ import java.util.*;
 
 class Solution{
     public int findPeak(int arr[], int n)
