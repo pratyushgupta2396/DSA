@@ -2,7 +2,7 @@
 Input: 7
 Output: 7 is a prime
 */
-
+ 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
