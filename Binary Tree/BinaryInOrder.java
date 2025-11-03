@@ -1,4 +1,4 @@
-/*Example 1
+ /*Example 1
 Input
 
 6 5 6 1 1 N 6
