@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
+ 
 public class Main
 {   public static int factorial(int n){
 	if(n == 0 || n == 1){
