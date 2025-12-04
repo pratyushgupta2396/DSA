@@ -1,4 +1,4 @@
- import java.util.*;
+  import java.util.*;
 
 class Solution {
     static int count1(int size, int arr[]) {
