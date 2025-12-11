@@ -1,4 +1,4 @@
-//Given an sorted integer array of size n which contains unique elements, find the index (0-based) of the given key.
+ //Given an sorted integer array of size n which contains unique elements, find the index (0-based) of the given key.
 
 //If the key is not present then return -1.
 
