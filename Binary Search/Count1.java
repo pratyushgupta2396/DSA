@@ -21,7 +21,7 @@ class Solution {
         if(lastOneIndex == -1){
             return 0;
         }
-        lastOneIndex = lastOneIndex + 1;
+        lastOneIndex = lastOneIndex + 1; 
         return lastOneIndex;
     }
 
