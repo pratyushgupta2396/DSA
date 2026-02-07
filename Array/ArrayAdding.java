@@ -8,7 +8,7 @@ public class Main {
       ansSize = arr1.length;
     }else{
     ansSize = arr2.length;
-    }
+    } 
     int [] ans = new int[ansSize];
 
     int i = arr1.length - 1;
