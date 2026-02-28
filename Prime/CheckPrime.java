@@ -5,7 +5,7 @@ Output: 7 is a prime
  
 import java.util.*;
 import java.lang.*;
-import java.io.*;
+import java.io.*;   
 
 public class Main
 {
