@@ -12,7 +12,7 @@ class Solution {
         while(low <= high){
             int mid = low + (high - low)/2;
             if(arr[mid] == 1){
-                lastOneIndex = mid;
+                lastOneIndex = mid; 
                 low = mid + 1;
             }else{
                 high = mid -1 ;
