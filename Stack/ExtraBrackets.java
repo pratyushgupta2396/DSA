@@ -1,7 +1,7 @@
  /*
 Example 1
 Input
-((a + b) + (c + d))
+((a + b) + (c + d)) 
 Output
 false
 
