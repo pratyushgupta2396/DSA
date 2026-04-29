@@ -5,7 +5,7 @@ public class Main {
      public  static void isPangram(String s)
       {
            // Your code herew
-           s=s.toLowerCase();
+           s=s.toLowerCase(); 
            int c =0;
            int [] maps = new int [26];
            for(int i=0;i<s.length();i++){
