@@ -1,4 +1,4 @@
-/*Example 1:
+ /*Example 1:
 
 Input: nums = [1,3,4,2,2]
 Output: 2
