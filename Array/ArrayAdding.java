@@ -3,7 +3,7 @@
 public class Main {
   static int[] calSum(int arr1[], int arr2[], int n, int m) {
     // your code here  
-    int ansSize;
+    int ansSize; 
     if(arr1.length > arr2.length){
       ansSize = arr1.length;
     }else{
