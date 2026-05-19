@@ -1,4 +1,4 @@
-    /*Example 1
+ /*Example 1
 
 Input
 10  
@@ -7,7 +7,7 @@ Input
 203 204 204 205 206 207 205 208 203 206 205 206 204
 
 Output
-204 205 206
+204 205 206 
  
 Explanation
 203 is in both arr and brr and its frequency is 2 in both arrays, hence it is not included in output
