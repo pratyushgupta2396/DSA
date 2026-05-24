@@ -3,7 +3,7 @@
 Print the pattern
     *****
     *   *
-    *   *
+    *   * 
     *****
     
 */
