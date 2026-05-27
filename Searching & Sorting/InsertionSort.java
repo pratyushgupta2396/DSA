@@ -14,7 +14,7 @@ public class Main
 				int curr = arr[i];
 				int j = i-1;
 				while(j >= 0 && curr < arr[j]){
-					arr[j+1] = arr[j];
+					arr[j+1] = arr[j]; 7
 					j--;
 				}
 				
