@@ -3,7 +3,7 @@
 class Solution {
     static int count1(int size, int arr[]) {
         //Write your code here
-        if(size == 0){
+        if(size == 0){ 
             return 0;
         }
         int low = 0;
