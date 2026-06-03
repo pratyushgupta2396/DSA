@@ -4,7 +4,7 @@ class Solution{
     public int findPeak(int arr[], int n)
     {
         //Write your code here
-        int low = 0;
+        int low = 0; 
         int high = arr.length - 1;
 
         while (low < high) {
