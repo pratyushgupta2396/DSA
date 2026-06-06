@@ -2,7 +2,7 @@
 import java.util.*;
   
 public class Main {
-    public static int[][] FloodFill(int[][] w, int x, int y, int c) {
+    public static int[][] FloodFill(int[][] w, int x, int y, int c) { 
         // write code here  
         boolean visited [][] = new boolean [w.length][w[0].length];
         fillColor(w, visited, w[x][y], c, x, y);
