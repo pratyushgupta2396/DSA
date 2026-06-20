@@ -9,7 +9,7 @@ Example 2
 Input
 (a + b) + ((c + d))
 Output
-true
+true 
 */
 class Solution {
     public boolean ExtraBrackets(String exp) {
