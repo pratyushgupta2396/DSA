@@ -7,7 +7,7 @@ public class Main {
     if(arr1.length > arr2.length){
       ansSize = arr1.length;
     }else{
-    ansSize = arr2.length;
+    ansSize = arr2.length; 
     } 
     int [] ans = new int[ansSize];
 
