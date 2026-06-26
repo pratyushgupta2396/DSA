@@ -5,7 +5,7 @@ public class Main {
     // your code here   
     int ansSize;  
     if(arr1.length > arr2.length){
-      ansSize = arr1.length;
+      ansSize = arr1.length; 
     }else{
     ansSize = arr2.length; 
     } 
