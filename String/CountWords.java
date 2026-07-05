@@ -10,7 +10,7 @@ class Main {
     String p = sc.nextLine();
     while (t > 0) { 
       String s = sc.nextLine();
-      System.out.println(countWords(s));
+      System.out.println(countWords(s)); 
       t--;
     }
   }
