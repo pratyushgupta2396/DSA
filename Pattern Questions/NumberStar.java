@@ -1,4 +1,4 @@
-/*
+ /*
  Print the Number Star
       1 
      2 2 
