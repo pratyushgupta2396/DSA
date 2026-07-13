@@ -4,7 +4,7 @@ import java.util.*;
 public class Main { 
 	static int isPalindrome(String str)
       {
-              //write code here
+              //write code here 
               str = str.toLowerCase();
               str = str.replaceAll("[^a-zA-Z0-9]","");
               for(int i=0;i<str.length()/2;i++){
