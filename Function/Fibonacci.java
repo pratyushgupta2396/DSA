@@ -10,7 +10,7 @@ public class Main
 		int b = 1;
 		for(int i = 1; i <= n; i++){
 			System.out.print(a + " ");
-			int c = a + b;
+			int c = a + b; 
 			a = b;
 			b = c;
 		}
