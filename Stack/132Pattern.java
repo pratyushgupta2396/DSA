@@ -17,7 +17,7 @@ Input
 
 4
 1 2 3 4
-Output
+Output 
 
 false
 Explanation
