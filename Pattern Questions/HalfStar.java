@@ -1,4 +1,4 @@
- /*
+  /*
 Print Half Star
       * 
      * * 
