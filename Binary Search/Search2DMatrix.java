@@ -1,4 +1,4 @@
-//You are given a 2D matrix mat of size m x n. Each row of mat has elements sorted from left to right. Also the first(leftmost) element of each row is greater than the last(rightmost) element of previous row.
+ //You are given a 2D matrix mat of size m x n. Each row of mat has elements sorted from left to right. Also the first(leftmost) element of each row is greater than the last(rightmost) element of previous row.
 
 //You are also given an integer x, Search for this x in mat, return true if x is present in mat, else return false.
 
