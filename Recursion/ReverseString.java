@@ -1,5 +1,5 @@
      h import java.util.*;
-import java.lang.*;
+im port java.lang.*;
 import java.io.*;
 
 public class Main
