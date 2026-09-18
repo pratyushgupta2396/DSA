@@ -9,7 +9,7 @@ Print the half pyramid pattern
           *******
 
 */
-import java.util.*;
+import java.util.*; 
 import java.lang.*;
 import java.io.*;
 
