@@ -1,5 +1,5 @@
   /*
-Print Half Star
+Print Half Star 
       * 
      * * 
     * * * 
