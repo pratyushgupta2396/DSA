@@ -1,4 +1,4 @@
-   import java.util.*;
+    import java.util.*;
 
 public class Main {
   static int[] calSum(int arr1[], int arr2[], int n, int m) {
