@@ -10,7 +10,7 @@ class Solution {
             int diff = target - nums[i]; 
             if(map.containsKey(diff)){
                 return new int[] {map.get(diff), i};
-            }else{
+            }else{ 
                 map.put(nums[i], i);
             }
         }
