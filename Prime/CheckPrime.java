@@ -1,5 +1,5 @@
                     /*
-Input: 7
+Input: 7 
 Output: 7 is a prime
 */
  
